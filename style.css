@@ -1,1 +1,85 @@
 
+ /*center the create heading*/
+          h1{
+            text-align: center;
+            margin-top: 20px
+          }
+          /*background colour for the page*/
+          body{
+            background-color: rgb(15, 156, 46)     (32, 30, 30);
+          }
+          /* caoursel container*/
+          .carousel-container{
+            position: relative;
+            width: 250px;
+            margin: auto;
+            overflow: hidden;
+          }
+          /* track arrange cards horizontally*/
+          .container-track{
+            display: flex;
+            flex-wrap: wrap;
+          }
+          /* indivitual card*/
+          .carousel-card{
+            flex: auto;
+            width: 250px;
+            height: 350px;
+            background-color: brown;
+            border-radius: 12px;
+            box-shadow: 04;
+          }
+          .card img{
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+          }
+          .carousel-button{
+            position: absolute;
+            top: 50%;
+            background: -moz-repeating-radial-gradient();
+            border: none;
+            color: gold;
+            font-size: 22px;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 50%;
+          }
+          .carousel-button.auto{
+            left: 10px;
+          }
+          /*sign up button colour*/
+          .signup-container input[type="button"]{
+            background-color: rgb(37, 23, 49);
+            color: blueviolet; /*colour for the text*/
+            border: none;
+            padding:8px 16px;
+            cursor: pointer;
+          }
+          body{
+            background-image: url("logo.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 200px;
+          }
+          /*form input fields*/
+          input [type="test"]
+          input[type="password"]{
+            text-align: center;
+            background-color: black(26, 59, 59);
+            border:1px 
+          }
+            /* position sign up at top right*/
+           .signup-container{
+              position: absolute;
+              top: 80px;  /*distance from the top ,just below create*/
+              right: 20px;  /*distance from right edge*/
+            }
+              /*center text inside inputs*/
+              input[type ="text"],
+              input [type="password"]{
+                text-align: center;
+                color: blue;
+              }
+
